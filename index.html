@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Everything you need in a modern bank and more">
+  <meta name="keywords" content="Online bank, Bankist bank, Fictional bank">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Bankist" />
+  <meta property="og:description" content="Everything you need in a modern bank and more" />
+  <meta property="og:image" content="https://bankist-bank.vercel.app/img/logo.webp" />
+  <meta property="og:url" content="https://bankist-bank.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <link rel="shortcut icon" type="image/png" href="./img/akem.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <title>Bank Akem | Buat jadi sederhana</title>
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="./img/akem.png" alt="Bankist logo" class="nav__logo" id="logo" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Fitur</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operasi</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimoni</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="./login/login.html">Buka
+            Akun</a>
+        </li>
+      </ul>
+      <img class="hamburger" src="./img/hamburger.webp" alt="Open menu" />
+    </nav>
+
+    <div class="header__title">
+      <section class="header-content">
+        <h1>
+          Gunakan
+          <!-- Green highlight effect -->
+          <span class="highlight">BankAkem</span>
+          <br />
+          <span class="highlight">Transaksi kamu menjadi mudah</span>
+        </h1>
+        <h2>Buat transaksi kamu menjadi mudah</h2>
+        <!--<button class="btn--text btn--scroll-to">Pelajari lebih lanjut &DownArrow;</button> -->
+      </section>
+
+      <img src="./img/sikaat.jpeg" class="header__img" alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section section-1 " id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Fitur</h2>
+      <h3 class="section__header">
+        Semua yang kamu butuhkan ada disini
+      </h3>
+    </div>
+
+    <div class="features">
+      <section class="feature-one">
+        <img src="./img/stocks.jpeg" data-src="./img/stocks.jpeg" alt="stocks"
+          class="features__img stocks.jpeg" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% bank digital</h5>
+          <p>
+            Era baru perbankan telah hadir. Kami menghadirkan pengalaman perbankan sepenuhnya digital, memberikan
+            kemudahan, kecepatan, dan keamanan tanpa batas. Nikmati layanan perbankan kapan saja, di mana saja, hanya
+            dengan sentuhan jari Anda.
+          </p>
+        </div>
+      </section>
+      <section class="feature-two">
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Perhatikan Uang Anda Berkembang, Dimulai dari Sini!</h5>
+          <p>
+            engan teknologi terkini, Bank Akem memberikan berbagai solusi investasi yang memungkinkan uang Anda
+            berkembang lebih cepat dan lebih aman. Cek saldo, kontrol investasi, dan nikmati hasilnya tanpa harus pergi
+            ke mana pun!
+          </p>
+        </div>
+        <img src="./img/gada duit.png" data-src="./img/gada duit.png" alt="Plant" class="gada duit.png" width="400"
+          height="290" />
+
+      </section>
+      <section class="feature-three">
+        <img src="./img/eitiem.jpeg" data-src="./img/eitiem.jpeg" alt="eitiem" class="features__img eitiem.jpeg" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="./img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Dapatkan Kartu Debit Gratis, Mudah dan Tanpa Biaya!</h5>
+          <p>
+            Nikmati kemudahan transaksi di mana saja dengan kartu debit gratis dari [Nama Bank]. Tanpa biaya tahunan,
+            tanpa ribet—semua bisa Anda nikmati hanya dengan mendaftar secara digital.
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="section " id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">operasi</h2>
+      <h3 class="section__header">
+        Transaksi dan manajemen keuangan jadi lebih cepat dan lebih mudah. Tanpa ribet, hanya dengan beberapa langkah.
+      </h3>
+    </div>
+
+    <section class="operations">
+      <section class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Kirim dengan cepat
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Pinjaman cepat
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Penutupan instan
+        </button>
+      </section>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="./img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Hanya Beberapa Klik, Transfer Uang Ke Siapa Saja! Tanpa Biaya, Tanpa Masalah!
+        </h5>
+        <p>
+          Nikmati kenyamanan mengirim uang ke siapa saja, kapan saja, tanpa harus khawatir dengan biaya tersembunyi.
+          Dengan sistem yang mudah digunakan, Anda bisa melakukan transfer dalam sekejap, tanpa hambatan!
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="./img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Beli rumah atau wujudkan impian Anda, dengan pinjaman cepat
+        </h5>
+        <p>
+          Tidak perlu menunggu lebih lama lagi untuk memiliki rumah idaman atau mewujudkan impian Anda! Dengan pinjaman
+          cepat dan proses yang mudah, kami siap membantu Anda mewujudkan segala kebutuhan finansial, memberikan
+          kemudahan untuk membeli rumah atau berinvestasi di properti, sehingga Anda bisa memulai langkah baru dalam
+          hidup tanpa beban
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="./img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Tidak lagi membutuhkan akun Anda? Tidak masalah! Tutup secara instan.
+        </h5>
+        <p>
+          Jika Anda memutuskan untuk menutup akun Anda, kami telah membuat prosesnya sederhana dan tidak merepotkan.
+          Hanya dengan beberapa klik, Anda dapat menutup akun Anda secara instan tanpa biaya tersembunyi atau prosedur
+          yang panjang. Nikmati kebebasan dan fleksibilitas untuk mengelola kebutuhan perbankan sesuai keinginan Anda.
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section class="section " id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Rating pengguna</h2>
+      <h3 class="section__header">
+        Banyak orang telah mencoba bank akem 
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">keputusan finansial</h5>
+          <blockquote class="testimonial__text">
+            Memilih bank akem adalah langkah finansial paling cerdas yang dapat Anda lakukan. Nikmati kenyamanan
+            yang tak tertandingi, keamanan terbaik, dan serangkaian fitur yang dirancang untuk membantu Anda mengelola
+            uang secara efektif. Pengalama masa depan perbankan dan buatlah keputusan keuangan terbaik Anda hari ini!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="./img/mirza.png" alt="" aria-hidden="true" class="testimonial__photo" />
+            <h6 class="testimonial__name">sayid mirza</h6>
+            <p class="testimonial__location">bandung , jawa barat</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Layanan live chat dalam website
+          </h5>
+          <blockquote class="testimonial__text">
+            Semua informasi terkait produk, layanan, dan promosi bank disajikan dengan jelas. Ada halaman FAQ yang
+            membantu menjawab pertanyaan umum. Tetapi, fitur live chat atau dukungan pelanggan real-time akan menjadi
+            nilai tambah besar.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="./img/saed.png" alt="" aria-hidden="true" class="testimonial__photo" />
+            <h6 class="testimonial__name">Sayid Abrar fadlurrahman</h6>
+            <p class="testimonial__location">Takengon , Aceh</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            tampilan yang mudah di gunakan
+          </h5>
+          <blockquote class="testimonial__text">
+            Website ini sangat mudah di pahami dan mudah untuk di gunakan dan juga tampilan yang menarik 
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="./img/aplan.png" alt="" aria-hidden="true" class="testimonial__photo" />
+            <h6 class="testimonial__name">Aplan Nasution</h6>
+            <p class="testimonial__location">Mandailing natal , Sumatra Utara</p>
+          </address>
+        </div>
+      </div>
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up ">
+    <div class="section__title">
+      <h3 class="section__header">
+        Hari yang pas untuk anda memulai akun bank
+      </h3>
+    </div>
+    <a class="nav__link nav__link--btn btn--show-modal" href="../public/registrasi/registrasi.html">Klik disini untuk membuka akun bank
+      kamu</a>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">Tentang</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Harga</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Cara penggunaan</a>
+      </li>
+      <div class="hint">
+        <a href="../public/keamanan/keamanan.html">Lihat petunjuk login</a>
+      </div>      
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Karir</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Kontak kami</a>
+      </li>
+    </ul>
+    <img src="./img/akem.png" alt="Bankist logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by
+      <a class="footer__link twitter-link" target="_blank" href="https://github.com/Akemalfitra">
+        Hakim alfitra
+      </a> & <a class="footer__link twitter-link" target="_blank" href="https://x.com/aforakem">Akem
+      </a>. Use for learning or your portfolio. Don't use to teach. Don't claim
+      as your own product.
+    </p>
+  </footer>
+
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
